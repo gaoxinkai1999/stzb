@@ -1,0 +1,16 @@
+server:
+  port: 8090
+  max-http-header-size: 102400
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp1eezv271x2qwencao.mysql.rds.aliyuncs.com:3306
+    username: gxk
+    password: Gxk19990805
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    timeout: 5000
+
+logging:
+  level:
+    root: info
